@@ -4,38 +4,47 @@
     <meta charset="UTF-8">
     <title></title>
 </head>
+
 <link href="/css/layui.css" th:href="@{/css/layui.css}" rel="stylesheet" type="text/css"/>
 <script src="/lay/modules/jquery.js" th:src="@{/lay/modules/jquery.js}" type="text/javascript"></script>
 <script src="/layui.js" th:src="@{/layui.js}" type="text/javascript"></script>
+<style>
+  /*  .layui-nav{
+        background-color: white;
+    }*/
+</style>
 <body>
-<ul class="layui-nav" th:fragment="nav">
-        <span class="">郑州</span><a href="" style="color: #00FF00">[切换]</a>
 
-        <li class="layui-nav-item"><img th:src="@{/images/face/f_wpr.png}" alt=""/></li>
-    <li class="layui-nav-item">
-        <a href="">首页<span class=""></span></a>
-    </li>
-    <li class="layui-nav-item">
-        <a href="">需求市场<span class=""></span></a>
-    </li>
-    <li class="layui-nav-item">
-        <a href="">装修公司<span class=""></span></a>
-    </li>
-    <li class="layui-nav-item">
-        <a href="">装修案例<span class=""></span></a>
-    </li>
-    <li class="layui-nav-item">
-        <a href="">发布需求<span class=""></span></a>
-    </li>
-    <li class="layui-nav-item">
-        <a href="">家居商城<span class=""></span></a>
-    </li>
+<ul class="layui-nav">
+    <span class="">郑州</span><a href="" style="color: #00FF00">[切换]</a>
+
+    <div class="">
+        <li class="layui-nav-item"><img src="images/face/f_wpr.png" alt=""/></li>
+        <li class="layui-nav-item">
+            <a href="">首页<span class=""></span></a>
+        </li>
+        <li class="layui-nav-item">
+            <a href="">需求市场<span class=""></span></a>
+        </li>
+        <li class="layui-nav-item">
+            <a href="">装修公司<span class=""></span></a>
+        </li>
+        <li class="layui-nav-item">
+            <a href="">装修案例<span class=""></span></a>
+        </li>
+        <li class="layui-nav-item">
+            <a href="">发布需求<span class=""></span></a>
+        </li>
+        <li class="layui-nav-item">
+            <a href="">家居商城<span class=""></span></a>
+        </li>
         <li class="layui-nav-item" style="left: 350px">
             <a href="">登录<span class=""></span></a>
         </li>
         <li class="layui-nav-item" style="left: 370px">
             <a href="">注册<span class=""></span></a>
         </li>
+    </div>
     <!--<li class="layui-nav-item" lay-unselect="">
         <a href="javascript:;"><img src="//t.cn/RCzsdCq" class="layui-nav-img">我</a>
         <dl class="layui-nav-child">
